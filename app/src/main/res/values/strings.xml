@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpecMD</string>
+    <string name="app_tagline">Device Specs to Markdown</string>
+
+    <!-- Sections -->
+    <string name="section_device">Identitas Perangkat</string>
+    <string name="section_hardware">Hardware</string>
+    <string name="section_display">Layar</string>
+    <string name="section_battery">Baterai</string>
+    <string name="section_system">Sistem</string>
+
+    <!-- Actions -->
+    <string name="action_copy">Salin ke Clipboard</string>
+    <string name="action_save">Simpan sebagai .md</string>
+    <string name="action_share">Bagikan</string>
+    <string name="action_preview">Pratinjau</string>
+
+    <!-- Settings -->
+    <string name="settings">Pengaturan</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_template">Template</string>
+    <string name="settings_history">Riwayat Export</string>
+    <string name="settings_about">Tentang</string>
+    <string name="settings_support">Dukung Pengembangan</string>
+
+    <!-- Toasts -->
+    <string name="toast_copied">Disalin ke clipboard!</string>
+    <string name="toast_saved">Tersimpan di Documents/SpecMD/</string>
+    <string name="toast_error">Terjadi kesalahan</string>
+    <string name="toast_copy_failed">Gagal menyalin</string>
+
+    <!-- Labels -->
+    <string name="label_model">Model</string>
+    <string name="label_manufacturer">Produsen</string>
+    <string name="label_android">Versi Android</string>
+    <string name="label_cpu">Prosesor</string>
+    <string name="label_ram">RAM</string>
+    <string name="label_storage">Penyimpanan</string>
+    <string name="label_resolution">Resolusi</string>
+    <string name="label_battery">Baterai</string>
+    <string name="label_na">N/A</string>
+
+    <!-- Support -->
+    <string name="support_donate_button">Dukung Sekarang ❤️</string>
+
+    <!-- Export -->
+    <string name="export_title">Export Spesifikasi</string>
+    <string name="export_copy">Salin ke Clipboard</string>
+    <string name="export_save">Simpan ke Dokumen</string>
+    <string name="export_share">Bagikan via…</string>
+    <string name="export_preview">Pratinjau Markdown</string>
+    <string name="export_copy_subtitle">Salin ke clipboard</string>
+    <string name="export_save_subtitle">Simpan ke folder Documents</string>
+    <string name="export_share_subtitle">Bagikan ke aplikasi lain</string>
+    <string name="export_preview_subtitle">Lihat preview sebelum export</string>
+
+    <!-- Preview -->
+    <string name="preview_title">📄 Pratinjau Markdown</string>
+    <string name="preview_close">Tutup</string>
+
+    <!-- About -->
+    <string name="about_github">GitHub Repository</string>
+    <string name="about_website">Website</string>
+    <string name="about_version">Versi</string>
+    <string name="about_website_url">spec-md.curzy.dev</string>
+
+    <!-- Links -->
+    <string name="github_url">https://github.com/Curzyori/spec-md</string>
+</resources>
