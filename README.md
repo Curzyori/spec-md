@@ -4,17 +4,17 @@
 
 <h1 align="center">SpecMD</h1>
 <p align="center">
-  <strong>One tap. Device specs to clean Markdown.</strong>
+  <strong>One tap. Device specs to Markdown.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Curzyori/spec-md/tree/main/version"><strong>📦 Current Version Build</strong></a>
+  <a href="https://github.com/Curzyori/spec-md/releases/latest"><strong>📦 Current Version Build</strong></a>
 </p>
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/Curzyori/spec-md?style=for-the-badge&color=blue)](https://github.com/Curzyori/spec-md/stargazers)
-[![Forks](https://img.shields.io/github/forks/Curzyori/spec-md?style=for-the-badge&color=blue)](https://github.com/Curzyori/spec-md/network/members)
+[![Stars](https://img.shields.io/github/stars/Curzyori/spec-md?style=for-the-badge&color=3B82F6)](https://github.com/Curzyori/spec-md/stargazers)
+[![Forks](https://img.shields.io/github/forks/Curzyori/spec-md?style=for-the-badge&color=3B82F6)](https://github.com/Curzyori/spec-md/network/members)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Android-black?style=for-the-badge)](#)
 
@@ -22,6 +22,7 @@
 
 <p align="center">
   <a href="#-why-specmd">Why This</a> ·
+  <a href="#-example-output">Example Output</a> ·
   <a href="#-key-features">Features</a> ·
   <a href="#-installation">Installation</a> ·
   <a href="#-preview">Preview</a>
@@ -33,14 +34,58 @@
 
 Extract your Android device specifications and export them to clean Markdown format. Perfect for bug reports, tech reviews, forum posts, and seller listings.
 
-|                               |                                                              |
-| ----------------------------- | ------------------------------------------------------------ |
-| ⚡ **One-Tap Copy**           | Copy formatted Markdown to clipboard instantly.               |
-| 📁 **Save to File**           | Export as `.md` file to Downloads folder.                    |
-| 📤 **Share Anywhere**         | Send to any app via Android share sheet.                     |
-| 👁 **Live Preview**           | Preview Markdown before exporting.                           |
-| 🌏 **Multi-Language**         | English and Bahasa Indonesia out of the box.                  |
-| 🌙 **Dark Theme**             | Eye-friendly dark UI by default.                             |
+## 📋 Example Output
+
+What you get after one tap:
+
+```markdown
+# 📱 Device Specifications
+
+Generated: 2026-07-01 08:00:00 UTC
+
+## 📱 Device Identity
+
+| Property | Value |
+|----------|-------|
+| Model | Pixel 7 Pro |
+| Manufacturer | Google |
+| Brand | Google |
+| Device | Cheetah |
+| Product | Pixel 7 Pro |
+
+## 🔧 Software
+
+| Property | Value |
+|----------|-------|
+| Android Version | Android 14 (API 34) |
+| Security Patch | 2025-06-01 |
+| Build Number | AP2A.240605.024 |
+
+## ⚙️ Hardware
+
+| Property | Value |
+|----------|-------|
+| Processor | Google Tensor G2 (ARMv8) |
+| RAM | 12 GB |
+| Internal Storage | 256 GB |
+
+## 📊 Display
+
+| Property | Value |
+|----------|-------|
+| Resolution | 1440 x 3120 pixels |
+| Refresh Rate | 120 Hz |
+
+## 🔋 Battery
+
+| Property | Value |
+|----------|-------|
+| Capacity | 5000 mAh |
+| Status | Discharging (87%) |
+
+---
+*Exported via SpecMD*
+```
 
 ---
 
@@ -73,7 +118,7 @@ Extract your Android device specifications and export them to clean Markdown for
 
 ## 📦 Installation
 
-Download the latest APK from the [version folder](https://github.com/Curzyori/spec-md/tree/main/version):
+Download the latest APK from the [releases page](https://github.com/Curzyori/spec-md/releases):
 
 | Version | File |
 | :--- | :--- |
